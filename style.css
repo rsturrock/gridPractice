@@ -1,0 +1,60 @@
+body {
+  background: #000;
+  color: #fff;
+  padding: 25px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.bigContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  gap: 20px;
+}
+
+.container {
+  background-color: teal;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  height: 500px;
+  width: 500px;
+  margin: auto;
+}
+
+.box1 {
+  background-color: salmon;
+  grid-area: 1 / 1 / 2 / 2;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.box2 {
+  background-color: violet;
+  grid-area: 2 / 2 / 3 / 3;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.subbox1a {
+  background-color: green;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.subbox1b {
+  background-color: yellow;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.subbox2a {
+  background-color: blue;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.subbox2b {
+  background-color: white;
+  grid-area: 2 / 2 / 3 / 3;
+}
